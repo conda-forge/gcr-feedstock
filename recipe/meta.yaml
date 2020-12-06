@@ -1,5 +1,5 @@
 {% set name = "GCR" %}
-{% set version = "0.8.8" %}
+{% set version = "0.8.9" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/GCR-{{ version }}.tar.gz
-  sha256: 21a464c3623544cef49f91dac1449a7db32c606d73d2d8aa5c4f917ad5502868
+  sha256: a42247adaa0689034504b809afed737ffdaee545297f6a3d62b34ef206b14ad7
 
 build:
   number: 0
@@ -36,7 +36,7 @@ about:
   home: https://github.com/yymao/generic-catalog-reader
   summary: 'Generic Catalog Reader: A common reader interface for accessing generic catalogs'
   license: MIT
-  license_file: LICENSE  # License file manually packaged for version <= 0.8.8; future releases will include LICENSE in source tarball.
+  license_file: LICENSE
   doc_url: https://yymao.github.io/generic-catalog-reader/
   dev_url: https://github.com/yymao/generic-catalog-reader
 
