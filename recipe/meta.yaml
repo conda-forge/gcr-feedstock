@@ -1,5 +1,5 @@
 {% set name = "GCR" %}
-{% set version = "0.8.9" %}
+{% set version = "0.9.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/GCR-{{ version }}.tar.gz
-  sha256: a42247adaa0689034504b809afed737ffdaee545297f6a3d62b34ef206b14ad7
+  sha256: 320af5a23f03890c5e73e62d1a3c11acf74b98b467460c005607cd4e72b20ed9
 
 build:
   number: 0
